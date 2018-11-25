@@ -1,4 +1,5 @@
 <configs>
+	<!-- Add the E action back to wild plants -->
 	<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
 		<property name="Class" value="CropsGrown"/>
 	</append>
@@ -38,4 +39,19 @@
 	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']">
 		<property name="Class" value="CropsGrown"/>
 	</append>
+	
+	<!-- Stop player-grown plants from inheriting the E option
+	<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>  -->
+	<set xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedHop3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
+	<set xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>
 </configs>
