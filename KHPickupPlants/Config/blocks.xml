@@ -39,6 +39,9 @@
 	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']">
 		<property name="Class" value="CropsGrown"/>
 	</append>
+	<append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+		<property name="Model" value="corn_harvest_shape"/>
+	</append>
 	
 	<!-- Stop player-grown plants from inheriting the E option
 	<set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/property[@name='Extends']/@value">cropsHarvestableMaster</set>  -->
